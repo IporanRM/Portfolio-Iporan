@@ -20,6 +20,10 @@ body{
     display: flex;
 }
 
+button:hover{
+    box-shadow: 0px 0px 8px rgba(0, 255, 255, 0.732) ;
+}
+
 /* estilo do cabeçalho */
 
 header{
@@ -69,10 +73,6 @@ h2.titulo{
 }
 h2.titulo span{
     color: rgb(0, 255, 255);
-}
-
-header .social-icons button:hover{
-    box-shadow: 0px 0px 8px rgba(0, 255, 255, 0.732) ;
 }
 
 /*Estilo do topo do site*/
@@ -158,6 +158,54 @@ section.Especialidades .flex{
 .Especialidades .especialidades-box h3{
     font-size: 25px;
     margin: 15px 0;
+}
+
+
+/*Estilização Sobre*/
+
+section.sobre{
+    padding: 40px 4%;
+}
+
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+section.sobre .interface img{
+    border-radius: 35px;
+}
+
+.sobre .txt-sobre{
+    color: #fff;
+}
+
+.sobre .txt-sobre h2{
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.sobre .txt-sobre h2 span{
+    color: aqua;
+    display: block;
+}
+
+.sobre .txt-sobre p{
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.sobre .txt-sobre .redes-sociais button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: aqua;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 6px;
+    transition: .2s;
 }
 
 
